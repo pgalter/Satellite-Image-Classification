@@ -1,0 +1,324 @@
+{
+  "n_images": 27000,
+  "classes": [
+    "AnnualCrop",
+    "Forest",
+    "HerbaceousVegetation",
+    "Highway",
+    "Industrial",
+    "Pasture",
+    "PermanentCrop",
+    "Residential",
+    "River",
+    "SeaLake"
+  ],
+  "counts": [
+    3000,
+    3000,
+    3000,
+    2500,
+    2500,
+    2000,
+    2500,
+    3000,
+    2500,
+    3000
+  ],
+  "files": {
+    "n_files": 27000,
+    "sampled_for_format": 1000,
+    "format": {
+      "JPEG": 1000
+    },
+    "mode": {
+      "RGB": 1000
+    },
+    "size": {
+      "64x64": 1000
+    },
+    "decoded_shape_all_images": [
+      27000,
+      64,
+      64,
+      3
+    ],
+    "file_bytes": {
+      "min": 982,
+      "median": 3457.0,
+      "max": 5229,
+      "total_MB": 91.84436
+    }
+  },
+  "exact_duplicates": {
+    "groups": 0,
+    "images_in_groups": 0,
+    "groups_spanning_classes": 0,
+    "groups_spanning_test_and_trainval_80_20": 0,
+    "examples": []
+  },
+  "train_channel_mean": [
+    0.34538769261566016,
+    0.3810537741541222,
+    0.40826795129124477
+  ],
+  "train_channel_std": [
+    0.20324714725837992,
+    0.13722978478879516,
+    0.11578251782796439
+  ],
+  "value_range": [
+    0,
+    255
+  ],
+  "class_profiles_median": {
+    "brightness (mean grey level)": {
+      "AnnualCrop": 121.0433349609375,
+      "Forest": 57.4278564453125,
+      "HerbaceousVegetation": 94.191162109375,
+      "Highway": 89.023193359375,
+      "Industrial": 120.937255859375,
+      "Pasture": 77.7725830078125,
+      "PermanentCrop": 114.3131103515625,
+      "Residential": 96.8470458984375,
+      "River": 80.03271484375,
+      "SeaLake": 58.8250732421875
+    },
+    "contrast (std of grey level)": {
+      "AnnualCrop": 24.700668334960938,
+      "Forest": 3.5117835998535156,
+      "HerbaceousVegetation": 13.420331954956055,
+      "Highway": 20.959884643554688,
+      "Industrial": 40.82862091064453,
+      "Pasture": 9.119168281555176,
+      "PermanentCrop": 21.2711181640625,
+      "Residential": 19.725135803222656,
+      "River": 17.233776092529297,
+      "SeaLake": 1.4132184982299805
+    },
+    "edge strength (mean Sobel magnitude)": {
+      "AnnualCrop": 33.63856506347656,
+      "Forest": 12.794185638427734,
+      "HerbaceousVegetation": 37.3536262512207,
+      "Highway": 51.413352966308594,
+      "Industrial": 119.61862182617188,
+      "Pasture": 22.786666870117188,
+      "PermanentCrop": 57.31890106201172,
+      "Residential": 78.98428344726562,
+      "River": 35.762603759765625,
+      "SeaLake": 3.4821834564208984
+    },
+    "mean_rgb": {
+      "AnnualCrop": [
+        129.70841573079426,
+        120.10916024667246,
+        117.11306163646557
+      ],
+      "Forest": [
+        39.4340641728154,
+        64.51374172634549,
+        76.10293816460504
+      ],
+      "HerbaceousVegetation": [
+        99.22950292516637,
+        99.46636092574508,
+        104.42534484863282
+      ],
+      "Highway": [
+        88.53806911892362,
+        96.93477959526909,
+        103.6263323296441
+      ],
+      "Industrial": [
+        123.83299886067708,
+        125.79436184353298,
+        134.71408379448783
+      ],
+      "Pasture": [
+        61.911769443088104,
+        88.40057152642144,
+        93.98777482774523
+      ],
+      "PermanentCrop": [
+        121.7207212999132,
+        115.6763581000434,
+        113.83264105902778
+      ],
+      "Residential": [
+        100.3350169994213,
+        104.03184995298032,
+        113.17632943612558
+      ],
+      "River": [
+        67.02587226019965,
+        86.6928327094184,
+        96.92600436740452
+      ],
+      "SeaLake": [
+        48.41852383083767,
+        73.21497429741754,
+        89.24953963668258
+      ]
+    }
+  },
+  "nn_colour": {
+    "loo_1nn_accuracy": 0.7748971193415638,
+    "per_class_recall": {
+      "AnnualCrop": 0.6870370370370371,
+      "Forest": 0.9375,
+      "HerbaceousVegetation": 0.7782407407407408,
+      "Highway": 0.4,
+      "Industrial": 0.8716666666666667,
+      "Pasture": 0.78125,
+      "PermanentCrop": 0.7061111111111111,
+      "Residential": 0.9083333333333333,
+      "River": 0.6994444444444444,
+      "SeaLake": 0.9111111111111111
+    },
+    "most_confused_pairs_mean_pct": [
+      [
+        "Highway",
+        "River",
+        13.63888888888889
+      ],
+      [
+        "HerbaceousVegetation",
+        "PermanentCrop",
+        9.574074074074074
+      ],
+      [
+        "Highway",
+        "Residential",
+        8.722222222222221
+      ],
+      [
+        "Highway",
+        "PermanentCrop",
+        8.444444444444445
+      ],
+      [
+        "AnnualCrop",
+        "Highway",
+        6.074074074074074
+      ],
+      [
+        "AnnualCrop",
+        "PermanentCrop",
+        5.990740740740741
+      ],
+      [
+        "Industrial",
+        "Residential",
+        5.060185185185185
+      ],
+      [
+        "HerbaceousVegetation",
+        "Highway",
+        4.851851851851851
+      ]
+    ]
+  },
+  "unusual": {
+    "near_constant_images_std_lt_2": {
+      "AnnualCrop": 0,
+      "Forest": 128,
+      "HerbaceousVegetation": 0,
+      "Highway": 0,
+      "Industrial": 0,
+      "Pasture": 0,
+      "PermanentCrop": 0,
+      "Residential": 0,
+      "River": 0,
+      "SeaLake": 1936
+    },
+    "brightness_mean_range": [
+      36.13427734375,
+      216.167236328125
+    ]
+  },
+  "nearest_train_image_of_test_images": {
+    "n_test": 5400,
+    "median_rmse": 16.38011932373047,
+    "nearest_has_same_label": 0.4164814814814815,
+    "test_images_with_rmse_below": {
+      "2": 313,
+      "4": 770,
+      "8": 1291
+    },
+    "rmse_below_4_by_class": {
+      "AnnualCrop": 0,
+      "Forest": 303,
+      "HerbaceousVegetation": 0,
+      "Highway": 0,
+      "Industrial": 0,
+      "Pasture": 0,
+      "PermanentCrop": 0,
+      "Residential": 0,
+      "River": 0,
+      "SeaLake": 467
+    },
+    "median_rmse_by_class": {
+      "AnnualCrop": 23.553253173828125,
+      "Forest": 3.993891716003418,
+      "HerbaceousVegetation": 14.027261734008789,
+      "Highway": 20.764789581298828,
+      "Industrial": 40.50165557861328,
+      "Pasture": 10.239535331726074,
+      "PermanentCrop": 22.733203887939453,
+      "Residential": 20.55675506591797,
+      "River": 16.699127197265625,
+      "SeaLake": 1.9348194599151611
+    },
+    "closest_pairs_shown": [
+      [
+        "Pasture/Pasture_1831.jpg",
+        "SeaLake/SeaLake_2935.jpg",
+        4.041723728179932
+      ],
+      [
+        "Pasture/Pasture_1958.jpg",
+        "Forest/Forest_2883.jpg",
+        4.1304216384887695
+      ],
+      [
+        "Pasture/Pasture_1961.jpg",
+        "SeaLake/SeaLake_2399.jpg",
+        4.1576008796691895
+      ],
+      [
+        "Pasture/Pasture_932.jpg",
+        "SeaLake/SeaLake_2772.jpg",
+        4.420779705047607
+      ],
+      [
+        "Pasture/Pasture_1022.jpg",
+        "SeaLake/SeaLake_1473.jpg",
+        4.6041460037231445
+      ],
+      [
+        "Pasture/Pasture_992.jpg",
+        "SeaLake/SeaLake_2936.jpg",
+        4.68386173248291
+      ],
+      [
+        "Pasture/Pasture_1633.jpg",
+        "Pasture/Pasture_1194.jpg",
+        4.861484527587891
+      ],
+      [
+        "Pasture/Pasture_948.jpg",
+        "SeaLake/SeaLake_2588.jpg",
+        4.899062633514404
+      ],
+      [
+        "Pasture/Pasture_1580.jpg",
+        "SeaLake/SeaLake_2332.jpg",
+        4.904524803161621
+      ],
+      [
+        "River/River_1518.jpg",
+        "Forest/Forest_1402.jpg",
+        4.98225212097168
+      ]
+    ]
+  }
+}

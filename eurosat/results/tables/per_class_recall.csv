@@ -1,0 +1,9 @@
+,AnnualCrop,Forest,HerbaceousVegetation,Highway,Industrial,Pasture,PermanentCrop,Residential,River,SeaLake
+"BoVW (SIFT, k=10) + SVM",67.67,61.17,39.0,38.8,63.4,33.5,28.0,83.33,32.6,87.0
+"BoVW (SIFT, k=100) + SVM",70.5,79.0,64.5,53.4,74.8,56.75,42.0,90.67,54.8,88.17
+"BoVW (SIFT, k=500) + SVM",77.67,79.67,69.5,53.8,76.6,59.75,48.0,91.67,59.6,88.5
+"CNN, two conv layers (64 px)",95.67,99.17,92.17,89.2,97.4,93.75,91.4,98.17,90.6,97.5
+"GoogLeNet, from scratch (128 px)",98.5,99.67,97.67,98.2,97.8,98.0,94.2,99.17,97.2,98.83
+"ResNet-50, from scratch (128 px)",98.83,100.0,96.83,98.2,96.8,98.25,94.8,98.83,98.0,99.67
+"GoogLeNet, ImageNet, fine-tuned (224 px)",97.67,99.83,97.0,97.4,98.8,96.25,96.2,99.83,98.6,99.83
+"ResNet-50, ImageNet, fine-tuned (224 px)",99.0,100.0,97.33,98.0,99.2,98.25,97.8,99.17,98.6,99.83

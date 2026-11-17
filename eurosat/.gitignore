@@ -1,0 +1,7 @@
+# environment, downloaded data and large derived files
+.venv/
+data/
+results/checkpoints/
+logs/
+__pycache__/
+*.pyc
