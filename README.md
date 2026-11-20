@@ -17,7 +17,7 @@ The original branch remains the reference for the previous report and results.
 
 Run all commands below **inside `eurosat/`**, with the environment active.
 
-## 1. Environment (colleague's CUDA machine)
+## 1. Environment (CUDA)
 
 Use Python 3.10 or 3.11 and a compatible NVIDIA driver. The original GPU experiments used
 PyTorch 2.7.1 / torchvision 0.22.1 with CUDA 12.8 and an 8 GB GPU.
