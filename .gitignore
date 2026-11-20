@@ -1,0 +1,13 @@
+# Downloaded data and all generated artifacts stay local.
+eurosat/data/
+eurosat/splits/
+eurosat/results/
+eurosat/logs/
+eurosat/figures/
+eurosat/outputs/
+.venv/
+**/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
