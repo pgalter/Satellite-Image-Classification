@@ -1,9 +1,4 @@
-# EuroSAT — minimal runnable branch
-
-Only the code needed to prepare EuroSAT RGB and run SIFT + BoVW + SVM, a two-layer CNN,
-ResNet-50 and GoogLeNet. Based on `eurosat-reproduction` commit `36e23c1`.
-No historical predictions, plots, reports, generated splits or datasets are tracked here.
-The original branch remains the reference for the previous report and results.
+# EuroSAT Image Classification 
 
 ## Files
 
